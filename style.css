@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Roboto+Slab&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background: #f3edf3;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.arrangeList {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 389px;
+    background-color: #e8e4eb;
+    border-radius: 25px;
+}
+
+#inputSection {
+    display: flex;
+    background: #d7dbdb;
+    box-shadow: 2px 8px 20px;
+    padding: 10px;
+
+}
+
+ /* This Css is applied using javascript  */
+/* #itemSection {
+    background: #d7dbdb;
+    box-shadow: 2px 8px 20px;
+    margin-top: 30px;
+} */
+
+input {
+    border-radius: 20px;
+    width: 306px;
+    padding: 12px;
+    font-family: "Roboto Slab", serif;
+}
+
+#btnAdd {
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid;
+    margin-left: 13px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 6px;
+    margin: 0px 0px 0px 9px;
+}
+
+button:hover {
+    background-color: #474947;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 16px;
+    }
+   
+    input {   
+        width: 200px;
+        padding: 10px;
+    }
+    
+    #btnAdd {
+        width: 92px;
+        padding: 2px;
+        margin-left: 2px;
+    }
+    .arrangeList {
+        
+        width: 264px;
+    padding: 2px;
+    }
+}
